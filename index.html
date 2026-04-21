@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Podcast</title>
+</head>
+
+<body class="bg-zinc-900 text-gray-200 font-poppins">
+<!-- hero section -->
+<section class="min-h-screen flex items-center justify-center">
+    <div class="max-w-[1024px] w-[90%] mx-auto flex  items-center justify-center flex-col-reverse md:flex-row gap-10">
+        <div class="flex-1  text-center md:text-left">
+            <h1 class="text-4xl md:text-[60px] font-bold text-primary leading-tight uppercase">The Audio People</h1>
+            <p class="text-sm md:text-lg">We are here to introduce you to the world of sound. With our diverse and
+                engaging podcasts, you can listen to inspiring stories, learn new skills, and benefit from the
+                experiences of others. Join us and embark on your audio journey!
+            </p>
+            <a href="#" class="btn-primary">Start Listening</a>
+        </div>
+        <div class="flex-1 ">
+            <div class="w-full h-[50vh] md:h-screen overflow-hidden relative">
+                <img class="w-full h-full md:h-[150vh] object-contain md:absolute md:top-[-25%]"
+                     src="./src/images/hero_section_img.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- hosts section -->
+<section class="min-h-screen flex items-center justify-center bg-orange-100 py-[100px] text-gray-700">
+    <div class="max-w-[1024px] w-[90%] mx-auto">
+        <div class="text-center max-w-lg mx-auto">
+            <h1 class="text-primary text-4xl font-bold">The Hosts</h1>
+            <p class="text-sm md:text-base text-gray-700 mt-3">Meet our passionate hosts who bring you the best stories
+                and insights from the world of podcasts. Each of them has a unique perspective and a wealth of
+                experience to share!
+            </p>
+        </div>
+        <div class="flex gap-5 mt-11 md:flex-row flex-col ">
+            <div class="bg-orange-200 p-5 rounded-xl flex-1">
+                <img src="./src/images/host-1.png" alt="Kamal Azad" class="rounded-lg object-cover w-full">
+                <h2 class="text-gray-700 text-xl font-medium mt-3">Kamal Azad</h2>
+                <p class="text-sm md:text-base mt-2">
+                    Kamal is a seasoned storyteller with a knack for diving deep into topics that matter. With over a
+                    decade of experience in the podcasting industry, he captivates listeners with his engaging
+                    narratives and insightful interviews.
+                </p>
+            </div>
+            <div class="bg-slate-200 p-5 rounded-xl flex-1">
+                <img src="./src/images/host-2.png" alt="Hasan Rahid" class="rounded-lg object-cover w-full">
+                <h2 class="text-gray-700 text-xl font-medium mt-3">Hasan Rahid</h2>
+                <p class="text-sm md:text-base mt-2">
+                    Hasan is an enthusiastic podcast and cultural enthusiast. His podcasts explore the intersections
+                    of culture, technology, and everyday life, providing listeners with fresh perspectives and
+                    thought-provoking discussions.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- most listened section -->
+<section class="flex items-center justify-center py-[100px]">
+    <div class="max-w-[1024px] w-[90%] mx-auto">
+        <h1 class="text-primary text-4xl font-bold text-center">Most listened <br> Episodes</h1>
+
+        <div class="mt-10 overflow-x-auto rounded-lg">
+            <table class="w-full bg-neutral-800 rounded-lg text-center mx-auto overflow-hidden">
+                <thead>
+                <tr class="bg-zinc-700">
+                    <th class="p-3 text-sm md:text-base">Guests</th>
+                    <th class="p-3 text-sm md:text-base">Date</th>
+                    <th class="p-3 text-sm md:text-base">Link</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="border-b border-gray-500">
+                    <td class="p-3 text-sm md:text-base">John Doe, Shaif Arfan</td>
+                    <td class="p-3 text-sm md:text-base">05/8/2024</td>
+                    <td class="p-3 text-sm md:text-base">
+                        <a href="#" class="btn-secondary">Listen</a>
+                    </td>
+                </tr>
+                <tr class="border-b border-gray-500">
+                    <td class="p-3 text-sm md:text-base">John Doe, Shaif Arfan</td>
+                    <td class="p-3 text-sm md:text-base">05/8/2024</td>
+                    <td class="p-3 text-sm md:text-base">
+                        <a href="#" class="btn-secondary">Listen</a>
+                    </td>
+                </tr>
+                <tr class="border-b border-gray-500">
+                    <td class="p-3 text-sm md:text-base">John Doe, Shaif Arfan</td>
+                    <td class="p-3 text-sm md:text-base">05/8/2024</td>
+                    <td class="p-3 text-sm md:text-base">
+                        <a href="#" class="btn-secondary">Listen</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="p-3 text-sm md:text-base">John Doe, Shaif Arfan</td>
+                    <td class="p-3 text-sm md:text-base">05/8/2024</td>
+                    <td class="p-3 text-sm md:text-base">
+                        <a href="#" class="btn-secondary">Listen</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- stats section -->
+<section class="flex items-center justify-center py-[100px]">
+    <div class="max-w-[800px] w-[90%] mx-auto">
+        <div class="flex justify-between md:flex-row flex-col md:gap-5 gap-10">
+            <div class="text-center">
+                <h1 class="counter">50</h1>
+                <p class="text-xl">episodes</p>
+            </div>
+            <div class="text-center">
+                <h1 class="counter">100</h1>
+                <p class="text-xl">hrs of talk</p>
+            </div>
+            <div class="text-center">
+                <h1 class="counter">80</h1>
+                <p class="text-xl">guests</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function animateCounters() {
+        const counters = document.querySelectorAll('.counter');
+
+        counters.forEach(counter => {
+            let count = 0;
+            const target = parseInt(counter.textContent, 10);
+            const speed = 100;
+
+            const updateCounter = () => {
+                count += 1;
+                counter.textContent = count + '+';
+
+                if (count < target) {
+                    setTimeout(updateCounter, speed);
+                } else {
+                    counter.classList.add('counter-animation');
+                }
+            };
+
+            updateCounter();
+        });
+    }
+    window.onload = animateCounters;
+</script>
+
+<!-- cta -->
+<section class="flex items-center justify-center  py-[100px] bg-cta-img bg-cover bg-center">
+    <div class="max-w-[800px] w-[90%] mx-auto">
+        <h1 class="text-4xl md:text-[80px] font-bold leading-tight uppercase">Don't miss the next episode</h1>
+        <a href="#" class="btn-primary">Follow Now</a>
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="flex items-center justify-center py-[100px] bg-gray-800">
+    <div class="max-w-[500px] w-[90%] mx-auto text-center">
+        <h1 class="text-4xl md:text-[80px] font-extrabold text-primary leading-tight uppercase">The Audio People</h1>
+        <p class="text-base md:text-lg text-gray-300 my-3">Explore the world of sound with our engaging podcasts.
+            Join us to hear inspiring stories and insightful conversations from diverse voices in the audio community.
+        </p>
+    </div>
+</footer>
+</body>
+</html>
